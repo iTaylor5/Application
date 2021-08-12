@@ -2,6 +2,8 @@
 
 ## currencyConvertServer
 
+This app was created using JavaScript, Node.js using Express.
+
 Navigate to the currencyConvertServer folder in terminal.
 
     Run the below command:
