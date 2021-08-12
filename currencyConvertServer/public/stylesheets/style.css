@@ -1,0 +1,160 @@
+body {
+  /*padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+  
+  border: 5px solid #FFFF00;
+  text-align: center;
+  */
+  /*width: 800px;
+  height: 700px;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*border: 5px solid #3C403D;*/
+  /* padding: 10px; */
+  background-color: #6C5B7B;
+  padding: 20px;
+
+}
+
+.currencyWindow {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #C06C84;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+
+.stackDisplay {
+  background-color: #39603D;
+}
+
+/* My Services CSS */
+
+.skills .content .title {
+  color: #ccd6f6;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 8px;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+ .services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services .box {
+  background-color: #122547;  
+  /*padding-right: 20px;*/
+  /*margin: 20px;*/
+  padding: 20px;
+}
+
+.services .boxes .topic {
+  color: #2F9599;
+}
+
+.services .boxes .box{
+  margin: 20px 0;
+  width: calc(100%);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.services .boxes .box p .label {
+  color: #8892b0;
+}
+.services .boxes .box:hover{
+  background: #C06C84  ;
+  color: #6C5B7B;
+}
+.services .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: #2F9599;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: #8892b0;
+  color: #64ffda;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #6C5B7B;
+  transition: all 0.4s ease;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ccd6f6;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15);
+  background: ccd6f6;
+  background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+  background-size: 150%;
+  background-position: right;
+  transition: 1s;
+}
+
+button:hover {
+  background-position: left;
+  color: #ccd6f6;
+  box-shadow: inset 0px 3px 5px #ccd6f6, 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+button:focus {
+  outline: none;
+}
+
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+section .title span{
+  color: #2A363B;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 8px;
+  font-family: 'Ubuntu', sans-serif;
+}
+section .title span::before,
+section .title span::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
