@@ -16,13 +16,13 @@ Navigate to the currencyConvertServer folder in terminal.
 
 Start screen:
 
-    ![Screenshot](./images/start_screen.png)
+    ![Screenshot](images/start_screen.png)
 
 While in use:
 
-    ![Screenshot](./images/standard_screen.png)
-    ![Screenshot](./images/standard_in_use.png)
+    ![Screenshot](images/standard_screen.png)
+    ![Screenshot](images/standard_in_use.png)
 
 While in use with mouse hovering over:
 
-    ![Screenshot](./images/highlight.png)
+    ![Screenshot](images/highlight.png)
